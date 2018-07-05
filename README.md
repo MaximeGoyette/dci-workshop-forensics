@@ -1,6 +1,7 @@
 # DCI-WORKSHOP: Forensics
 
 ## Requirements
+* Any OS with a working docker machine (Linux is strongly recommended)
 * [Docker](https://docs.docker.com/install/linux/docker-ce/ubuntu/)
 * [Wireshark](https://www.wireshark.org/#download) 
 
@@ -13,4 +14,4 @@ cd dci-workshop-forensics
 ``` 
 
 ## Challenges sources
-* [Hackerfire](https://ctf.hackerfire.com)
+* 1 - 5 : [Hackerfire](https://ctf.hackerfire.com)
