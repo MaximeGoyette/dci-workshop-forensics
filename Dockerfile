@@ -26,9 +26,9 @@ WORKDIR /tools/JohnTheRipper/src
 RUN ./configure && make -s clean && make -sj4
 ENV PATH="$PATH:/tools/JohnTheRipper/run"
 
-#WORKDIR /tools
-#RUN wget http://downloads.skullsecurity.org/passwords/rockyou.txt.bz2
-#RUN bzip2 -d rockyou.txt.bz2
+WORKDIR /tools
+RUN wget http://downloads.skullsecurity.org/passwords/rockyou.txt.bz2
+RUN bzip2 -d rockyou.txt.bz2
 
 WORKDIR /tools
 RUN wget https://www.unix-ag.uni-kl.de/~conrad/krypto/pkcrack/pkcrack-1.2.2.tar.gz

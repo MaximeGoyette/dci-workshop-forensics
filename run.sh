@@ -1,1 +1,1 @@
-sudo docker run --rm -v ${pwd}:/challenges -it dciworkshopforensics
+sudo docker run --rm -v ${pwd}:/challenges -it forensics-toolkit

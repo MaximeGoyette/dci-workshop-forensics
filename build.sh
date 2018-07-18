@@ -1,1 +1,1 @@
-sudo docker build -t dciworkshopforensics .
+sudo docker build -t forensics-toolkit .
