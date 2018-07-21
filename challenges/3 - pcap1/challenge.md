@@ -1,2 +1,0 @@
-# Le virus
-Nous avons été en mesure de capturer la communication internet du virus du criminel le plus recherché. Pouvez-vous trouver le mot de passe du virus afin que nous puissions nous connecter à son serveur?

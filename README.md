@@ -14,4 +14,4 @@ cd dci-workshop-forensics
 ``` 
 
 ## Challenges sources
-* 1 - 5 : [Hackerfire](https://ctf.hackerfire.com)
+* 1 - 4 : [Hackerfire](https://ctf.hackerfire.com)
