@@ -1,1 +1,1 @@
-sudo docker build -t forensics-toolkit .
+sudo docker build -t maxgoyette0/forensics-toolkit .

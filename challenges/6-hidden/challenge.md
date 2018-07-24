@@ -1,1 +1,0 @@
-Just find the flag ¯\\_(ツ)_/¯
