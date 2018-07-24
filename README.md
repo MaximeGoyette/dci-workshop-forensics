@@ -41,12 +41,12 @@ Voyez si vous pouvez trouver le mot de passe utilisé par un utilisateur lorsqu'
 ### Challenge 6 - Le message confidentiel
 > Logan Paul, n'ayant pas compris le principe de la cryptographie asymétrique, décide d'envoyer un message secret à Jake Paul. Cependant, Logan envoie également la clé privée GPG à son frère, sachant qu'il est le seul à pouvoir deviner son passphrase. 
 
-* [5.zip [5KB]](https://drive.google.com/open?id=1hN6lQ9Rj4xLcG7qWaKl_gijGMe7Rc16Z)
+* [6.zip [5KB]](https://drive.google.com/open?id=1hN6lQ9Rj4xLcG7qWaKl_gijGMe7Rc16Z)
 
 ### Challenge 7 - ¯\\_(ツ)_/¯
 > Just find the flag !
 
-* [6.zip [312KB]](https://drive.google.com/open?id=1iVm83Jh7ex6YhFtAiGub08UclRfu_hY3)
+* [7.zip [312KB]](https://drive.google.com/open?id=1iVm83Jh7ex6YhFtAiGub08UclRfu_hY3)
 
 ### Challenge 8 - A big dump (part 1)
 > John était dans le processus de copier/coller des données confidentielles lorsque son ordinateur a crash. Heureusement, un core dump a été enregistré par le système à ce moment.
