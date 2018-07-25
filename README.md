@@ -56,7 +56,7 @@ Voyez si vous pouvez trouver le mot de passe utilisé par un utilisateur lorsqu'
 ### Challenge 9 - A big dump (part 2)
 > John doit absolument récupérer la donnée confidentielle qu'il était en train de rechercher sur Bing lors du crash.
 
-* Même fichier que le challenge 7.
+* Même fichier que le challenge 8.
 
 ## Sources
 * Challenges 1-5 : [Hackerfire](https://ctf.hackerfire.com)
