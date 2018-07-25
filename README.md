@@ -58,5 +58,13 @@ Voyez si vous pouvez trouver le mot de passe utilisé par un utilisateur lorsqu'
 
 * Même fichier que le challenge 8.
 
+## Solutions
+Le mot de passe pour le fichier zip de solutions est le md5 hexdigest de tous les flags concaténés par des virgules.
+
+Ex:
+```python
+password = md5('flag1,flag2,flag3').hexdigest()
+```
+
 ## Sources
 * Challenges 1-5 : [Hackerfire](https://ctf.hackerfire.com)
