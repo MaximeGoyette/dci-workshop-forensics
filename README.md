@@ -8,7 +8,7 @@
 ## Setup
 ```bash
 $ docker pull maxgoyette0/forensics-toolkit
-$ docker run --rm -v ${pwd}:/challenges -it maxgoyette0/forensics-toolkit
+$ docker run --rm -v `pwd`:/challenges -it maxgoyette0/forensics-toolkit
 ``` 
 
 ## Challenges

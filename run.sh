@@ -1,1 +1,1 @@
-sudo docker run --rm -v ${pwd}:/challenges -it maxgoyette0/forensics-toolkit
+sudo docker run --rm -v `pwd`:/challenges -it maxgoyette0/forensics-toolkit
