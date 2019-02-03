@@ -16,17 +16,21 @@ RUN apt update && apt install -y  binwalk \
     wget \
     tshark \
     volatility \
-    python3-pip
+    python3-pip \
+    gcc
 
 RUN pip3 install pyshark scapy
 
 WORKDIR /tools
-RUN git clone https://github.com/magnumripper/JohnTheRipper.git
+RUN git clone https://github.com/magnumripper/JohnTheRipper.git && \
+    git clone https://github.com/jeroennijhof/vncpwd.git && \
+    wget http://downloads.skullsecurity.org/passwords/rockyou.txt.bz2 && \
+    bzip2 -d rockyou.txt.bz2
 
 WORKDIR /tools/JohnTheRipper/src
 RUN ./configure && make -s clean && make -sj4
 
-WORKDIR /tools
-RUN wget http://downloads.skullsecurity.org/passwords/rockyou.txt.bz2 && bzip2 -d rockyou.txt.bz2
+WORKDIR /tools/vncpwd
+RUN make
 
 WORKDIR /challenges
